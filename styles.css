@@ -1,4 +1,4 @@
-#middle {
+.middle {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,14 +23,21 @@
     outline: none;
 }
 
-#navbar {
-    position: absolute;
-}
-
-nav li {
-    display: inline;
-}
-
-a {
+.navbar a {
     text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0;
+}
+
+.navbar ul {
+    padding-inline-start: 0px;
+}
+
+.left-navbar {
+    float: left;
+}
+
+.right-navbar {
+    float: right;
 }
