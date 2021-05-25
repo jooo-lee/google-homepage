@@ -15,4 +15,10 @@
     position: absolute;
     margin-top: 22%;
     width: 40%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: darkgrey;
+    outline: none;
 }
