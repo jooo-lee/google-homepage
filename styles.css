@@ -22,3 +22,15 @@
     border-color: darkgrey;
     outline: none;
 }
+
+#navbar {
+    position: absolute;
+}
+
+nav li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
