@@ -23,15 +23,16 @@
     outline: none;
 }
 
+.navbar {
+    padding-top: 10px;
+    overflow: hidden;
+}
+
 .navbar a {
     text-decoration: none;
     text-align: center;
     padding: 14px 16px;
     margin: 0;
-}
-
-.navbar ul {
-    padding-inline-start: 0px;
 }
 
 .left-navbar {
