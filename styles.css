@@ -28,6 +28,19 @@ body {
     outline: none;
 }
 
+.mid-buttons {
+    margin-top: 25%;
+    padding-top: 18px;
+}
+
+#google-search {
+    display: inline;
+}
+
+#feeling-lucky {
+    display: inline;
+}
+
 .navbar {
     padding-top: 10px;
     overflow: hidden;
