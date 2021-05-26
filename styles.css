@@ -1,3 +1,8 @@
+body {
+    font-size: 14px; 
+    font-family: arial, sans-serif; 
+}
+
 .middle {
     display: flex;
     flex-direction: column;
@@ -65,4 +70,9 @@
     display: flex;
     justify-content: flex-end;
     width: 50%;
+}
+
+button {
+    font-size: 14px; 
+    font-family: arial, sans-serif; 
 }
