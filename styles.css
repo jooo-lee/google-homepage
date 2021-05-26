@@ -10,26 +10,31 @@ body {
 }
 
 #google-logo {
-    position: absolute;
-    margin-top: 10%;
-    width: 20%;
-    height: auto;
+    position: relative;
+    margin-top: 140px;
+}
+
+.search-bar-div {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    min-width: 380px;
 }
 
 #search-bar {
-    position: absolute;
-    margin-top: 18.5%;
-    width: 40%;
+    position: relative;
+    width: 582px;
     padding: 10px;
     font-size: 14px;
     border-radius: 50px;
     border-style: solid;
     border-color: darkgrey;
     outline: none;
+    resize: none;
 }
 
 .mid-buttons {
-    margin-top: 25%;
     padding-top: 18px;
 }
 
@@ -71,6 +76,7 @@ body {
 }
 
 .footer a {
+    position: relative;
     text-decoration: none;
     padding: 14px 16px;
     text-align: center;
