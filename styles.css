@@ -1,4 +1,5 @@
 body {
+    color: #222;
     font-size: 14px; 
     font-family: arial, sans-serif; 
 }
@@ -7,6 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+a, a:visited {
+    color: inherit;
 }
 
 #google-logo {
@@ -41,15 +46,25 @@ body {
 }
 
 .mid-buttons {
-    padding-top: 18px;
+    padding-top: 13px;
+}
+
+.mid-buttons button {
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 9px 16px;
+    background-color: #f8f9fa;
 }
 
 #google-search {
     display: inline;
+    margin-right: 4px;
 }
 
 #feeling-lucky {
     display: inline;
+    margin-left: 4px;
 }
 
 .navbar {
