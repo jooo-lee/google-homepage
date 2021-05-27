@@ -26,7 +26,7 @@ body {
     position: relative;
     width: 582px;
     padding-top: 10px;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-right: 10px;
     padding-bottom: 10px;
     font-size: 14px;
@@ -35,9 +35,9 @@ body {
     border-color: darkgrey;
     outline: none;
     resize: none;
-    background-image: url("search-icon.svg");
-    background-repeat: no-repeat;
-    background-position: 1% 50%;
+    background-image: url("search-icon.svg"), url("mic-icon.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 2% 50%, 98% 50%;
 }
 
 .mid-buttons {
