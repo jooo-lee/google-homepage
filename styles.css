@@ -4,6 +4,10 @@ html, body {
     font-family: arial, sans-serif; 
 }
 
+a:hover:not(#nav-icon) {
+    text-decoration: underline !important;
+}
+
 /* Top of page - navbar */
 
 #navbar {
@@ -192,10 +196,8 @@ button {
 }
 
 /* TODO
- - position middle parts
- - add underline for anchor when mouse hover
  - hover effect for google apps icon
  - hover effects for 3 buttons
  - hover effect for search bar
- - mouse over cursor effect?
+ - mouse over cursor effect? for buttons
 */
