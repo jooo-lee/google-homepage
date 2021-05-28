@@ -109,11 +109,11 @@ button {
     box-shadow: 0 1px 3px 1px #dddddd;
 }
 
-#mid-buttons {
+#mid-buttons-div {
     padding-top: 7px;
 }
 
-#mid-buttons button {
+#mid-buttons-div button {
     color: #3c4043;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -129,6 +129,16 @@ button {
 #feeling-lucky {
     display: inline;
     margin-left: 4px;
+}
+
+#google-search:hover {
+    border: 1px solid #d7d8da;
+    box-shadow: 0 1px 2px #dddddd;
+}
+
+#feeling-lucky:hover {
+    border: 1px solid #d7d8da;
+    box-shadow: 0 1px 2px #dddddd;
 }
 
 #français {
@@ -150,7 +160,7 @@ button {
     background-color: #f8f9fa;
     position: absolute;
     display: block;
-    border-bottom: 1px solid #d2d5d8;
+    border-bottom: 1px solid #d7d8da;
     width: 100%;
     height: 48px;
     left: 0;
@@ -207,6 +217,5 @@ button {
 
 /* TODO
  - hover effects for 3 buttons
- - hover effect for search bar
  - mouse over cursor effect? for buttons
 */
