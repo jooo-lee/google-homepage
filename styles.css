@@ -33,7 +33,8 @@ a, a:visited {
     font-size: 14px;
     border-radius: 50px;
     border-style: solid;
-    border-color: darkgrey;
+    border-width: thin;
+    border-color: #c0c0c0;
     outline: none;
     resize: none;
     background-image: url("search-icon.svg"), url("mic-icon.svg");
@@ -97,7 +98,7 @@ a, a:visited {
 }
 
 /* When footer wraps, center each part of the footer */
-@media only screen and (max-width: 629.41px) {
+@media only screen and (max-width: 609.41px) {
     .footer {
         justify-content: space-evenly;
     }
@@ -105,17 +106,20 @@ a, a:visited {
 
 .footer a {
     text-decoration: none;
-    padding: 14px 16px;
     text-align: center;
 }
 
 .left-footer {
     display: flex;
-    padding: 15px;
+    padding-left: 20px;
 }
 
 .right-footer {
     display: flex;
+    padding-right: 20px;
+}
+
+.footer-item {
     padding: 15px;
 }
 
@@ -123,3 +127,15 @@ button {
     font-size: 14px; 
     font-family: arial, sans-serif; 
 }
+
+/* TODO
+ - add "google offered in français" should i even add this?
+ - style + position sign in button
+ - position google apps icon
+ - remove outline for search bar?
+ - position middle parts 
+ - add underline for anchor when mouse hover
+ - hover effect for google apps icon
+ - hover effects for 3 buttons
+ - hover effect for search bar
+*/
