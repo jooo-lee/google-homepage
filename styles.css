@@ -119,6 +119,23 @@ button {
 
 /* Bottom of page - footer */
 
+#canada-footer {
+    color: #70757a;
+    background-color: #f8f9fa;
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid #d2d5d8;
+    width: 100%;
+    height: 48px;
+    left: 0;
+    bottom: 46px;
+}
+
+#canada {
+    font-size: 15px;
+    padding: 15px 30px;
+}
+
 #footer {
     color: #70757a;
     background-color: #f8f9fa;
@@ -133,9 +150,13 @@ button {
 }
 
 /* When footer wraps, center each part of the footer */
-@media only screen and (max-width: 609.41px) {
-    .footer {
+@media only screen and (max-width: 597.41px) {
+    #footer {
         justify-content: space-evenly;
+    }
+
+    #canada-footer {
+        bottom: 94px;
     }
 }
 
@@ -160,6 +181,7 @@ button {
 
 /* TODO
  - add "google offered in français" should i even add this?
+ - add canada footer
  - resize search bar?
  - position middle parts
  - add underline for anchor when mouse hover
