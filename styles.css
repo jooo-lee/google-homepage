@@ -96,6 +96,7 @@ a, a:visited {
     min-width: 500px;
 }
 
+/* When footer wraps, center each part of the footer */
 @media only screen and (max-width: 629.41px) {
     .footer {
         justify-content: space-evenly;
@@ -111,18 +112,11 @@ a, a:visited {
 .left-footer {
     display: flex;
     padding: 15px;
-    /* padding-top: 15px;
-    padding-bottom: 15px; */
-    white-space: nowrap;
 }
 
 .right-footer {
     display: flex;
     padding: 15px;
-    margin-right: 0;
-    /* padding-top: 15px;
-    padding-bottom: 15px; */
-    /* white-space: nowrap; */
 }
 
 button {
