@@ -75,19 +75,19 @@ button {
 #search-bar-div {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 25px 0;
     width: 100%;
 }
 
 #search-bar {
     position: relative;
-    width: 582px;
-    padding: 10px 10px 10px 50px;
+    width: 540px;
+    padding: 15px 10px 15px 50px;
     font-size: 14px;
     border-radius: 50px;
     border-style: solid;
     border-width: thin;
-    border-color: #c0c0c0;
+    border-color: #dbdada;
     outline: none;
     resize: none;
     background-image: url("search-icon.svg"), url("mic-icon.svg");
@@ -96,7 +96,7 @@ button {
 }
 
 #mid-buttons {
-    padding-top: 13px;
+    padding-top: 7px;
 }
 
 #mid-buttons button {
@@ -181,11 +181,10 @@ button {
 
 /* TODO
  - add "google offered in français" should i even add this?
- - add canada footer
- - resize search bar?
  - position middle parts
  - add underline for anchor when mouse hover
  - hover effect for google apps icon
  - hover effects for 3 buttons
  - hover effect for search bar
+ - mouse over cursor effect?
 */
