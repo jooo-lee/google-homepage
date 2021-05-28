@@ -117,6 +117,18 @@ button {
     margin-left: 4px;
 }
 
+#français {
+    font-size: 13px;
+    padding: 30px;
+    margin-bottom: 24px;
+}
+
+#français a {
+    text-decoration: none;
+    color: #1a0dab;
+    padding: 0 3px;
+}
+
 /* Bottom of page - footer */
 
 #canada-footer {
@@ -180,7 +192,6 @@ button {
 }
 
 /* TODO
- - add "google offered in français" should i even add this?
  - position middle parts
  - add underline for anchor when mouse hover
  - hover effect for google apps icon
