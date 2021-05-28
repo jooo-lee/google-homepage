@@ -11,7 +11,7 @@ a:hover:not(#nav-icon) {
 /* Top of page - navbar */
 
 #navbar {
-    padding-top: 5px;
+    padding: 5px 0;
     overflow: hidden;
 }
 
@@ -61,6 +61,11 @@ button {
 #nav-icon-img {
     position: relative;
     top: 7px;
+    border-radius: 50%;
+}
+
+#nav-icon-img:hover {
+    box-shadow: inset 20px 20px 20px 20px #eeeeee, 0 0 0 7px #eeeeee;
 }
 
 /* Middle of page - Google logo, search bar, two middle buttons */
