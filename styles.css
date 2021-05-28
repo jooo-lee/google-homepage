@@ -33,6 +33,7 @@ a:hover:not(#nav-icon) {
 
 #right-navbar {
     float: right;
+    font-size: 13px;
 }
 
 a, a:visited {
@@ -102,6 +103,10 @@ button {
     background-image: url("search-icon.svg"), url("mic-icon.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: 2% 50%, 98% 50%;
+}
+
+#search-bar:hover {
+    box-shadow: 0 1px 3px 1px #dddddd;
 }
 
 #mid-buttons {
@@ -201,7 +206,6 @@ button {
 }
 
 /* TODO
- - hover effect for google apps icon
  - hover effects for 3 buttons
  - hover effect for search bar
  - mouse over cursor effect? for buttons
