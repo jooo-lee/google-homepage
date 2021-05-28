@@ -2,7 +2,6 @@ html, body {
     color: #222;
     font-size: 14px; 
     font-family: arial, sans-serif; 
-    /* height: 100%; */
 }
 
 .middle {
@@ -25,16 +24,12 @@ a, a:visited {
     justify-content: center;
     padding: 20px 0;
     width: 100%;
-    min-width: 380px;
 }
 
 #search-bar {
     position: relative;
     width: 582px;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding: 10px 10px 10px 50px;
     font-size: 14px;
     border-radius: 50px;
     border-style: solid;
@@ -89,35 +84,45 @@ a, a:visited {
 }
 
 .footer {
+    color: #70757a;
+    background-color: #f8f9fa;
     position: absolute;
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     bottom: 0;
-    width: 100%;
-    /* padding-bottom: 14px; */
     left: 0;
+    width: 100%;
+    min-width: 500px;
+}
+
+@media only screen and (max-width: 629.41px) {
+    .footer {
+        justify-content: space-evenly;
+    }
 }
 
 .footer a {
-    /* position: relative; */
     text-decoration: none;
     padding: 14px 16px;
     text-align: center;
 }
 
 .left-footer {
-    background-color: #f8f9fa;
-    width: 50%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    display: flex;
+    padding: 15px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    white-space: nowrap;
 }
 
 .right-footer {
-    background-color: #f8f9fa;
     display: flex;
-    justify-content: flex-end;
-    width: 50%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
+    margin-right: 0;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    /* white-space: nowrap; */
 }
 
 button {
