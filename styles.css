@@ -54,6 +54,11 @@ button {
     margin-right: 8px;
 }
 
+#sign-in-button:hover {
+    background: #3180e7;
+    box-shadow: 0 1px 1.5px #9cbfee;
+}
+
 #nav-icon {
     padding-right: 22px;
     padding-left: 20px;
@@ -216,6 +221,5 @@ button {
 }
 
 /* TODO
- - hover effects for 3 buttons
  - mouse over cursor effect? for buttons
 */
