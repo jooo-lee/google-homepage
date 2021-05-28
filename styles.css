@@ -8,6 +8,16 @@ a:hover:not(#nav-icon) {
     text-decoration: underline !important;
 }
 
+a, a:visited {
+    color: inherit;
+}
+
+button {
+    font-size: 14px; 
+    font-family: arial, sans-serif;
+    cursor: pointer; 
+}
+
 /* Top of page - navbar */
 
 #navbar {
@@ -34,15 +44,6 @@ a:hover:not(#nav-icon) {
 #right-navbar {
     float: right;
     font-size: 13px;
-}
-
-a, a:visited {
-    color: inherit;
-}
-
-button {
-    font-size: 14px; 
-    font-family: arial, sans-serif; 
 }
 
 #sign-in-button {
@@ -219,7 +220,3 @@ button {
 .footer-item {
     padding: 15px;
 }
-
-/* TODO
- - mouse over cursor effect? for buttons
-*/
